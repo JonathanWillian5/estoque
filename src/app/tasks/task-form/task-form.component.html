@@ -1,0 +1,12 @@
+<br><br><br><br>
+<h2>{{ title }}</h2>
+<hr />
+
+<section id="form">
+  <form (ngSubmit)="onSubmit()" #formTask="ngForm">
+    <div class="form-group">
+      <label>Descrição</label>
+      <textarea ngModel="task.quantidade" name="quantidade" rows="5" class="form-control"></textarea>
+    </div>
+  </form>
+</section>

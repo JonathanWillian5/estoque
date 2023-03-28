@@ -1,0 +1,7 @@
+.task-quantidade{
+  text-decoration: line-through;
+}
+
+.task-item-descricao{
+  flex-grow: 1;
+}
